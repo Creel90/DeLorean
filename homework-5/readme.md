@@ -8,8 +8,9 @@ Brief description of your what your project is about and why you chose that topi
 
 [Homework-5](https://github.com/Creel90/DeLorean/tree/main/homework-5)
 
-[Onlinebookstore](https://github.com/Creel90/DeLorean/blob/main/homework-5/onlinebookstore.html)
+[Online Bookstore](https://github.com/Creel90/DeLorean/blob/main/homework-5/onlinebookstore.html)
 
+[Flower Shop](https://github.com/Creel90/DeLorean/blob/main/homework-5/Flowershop.html)
 
 ### Key Takeaways (Analyst)
 
