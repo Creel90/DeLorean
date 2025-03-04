@@ -18,7 +18,13 @@ Understanding of why we are doing this project
 
 ### Core Webpages (Architect)
 
-List core webpages and briefly describe the page of them
+- Online Bookstore - Users can browse book list and add or remove books from their carts. Provides a message in the cart saying "No books in cart".
+
+- Flower Shop - Displays a list of flowers for users to add to their carts as well as a way to remove the last item they added to the cart. If no books are in the cart it displays the message "No flowers in cart".
+
+- Resteraunt Menu -
+
+- Animal Shelter -
 
 ### Design Choices (Designer)
 
