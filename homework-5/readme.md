@@ -33,12 +33,10 @@ Additional topics include conditionals and array methods. Conditionals are a way
 List any websites that you might reference to influence your styling choices. List any colors used and what they were used for.
 
 ### Members & Responsibilities (Scrum Master)
-Cammie Reel- President- "Submit assignments, write Project Summary section"
+Cammie Reel- President/Architect- "Submit assignments, write Project Summary section"/"Write Core Webpages section"
 
 Olusola Abolade- Scrum Master- "Write Members & Responsibilities section"
 
 Zachary Stepp- Analyst- "Write Key Takeaways section"
 
 Yonni Baruch- Designer- "Write Design Choices section"
-
- Still UnKnown -Architect – "Write Core Webpages section"
