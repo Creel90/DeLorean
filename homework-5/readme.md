@@ -14,7 +14,9 @@ Brief description of your what your project is about and why you chose that topi
 
 ### Key Takeaways (Analyst)
 
-Understanding of why we are doing this project
+The most important new topics covered in this week's assignment are event listeners and functions. Event listeners are triggered by a user on the webpage when interacting with elements, such as clicking a button (`onClick`) or mousing over an input field or text (`onFocus`). Event listeners are often used when creating logic to change something on the webpage after the user triggers them. Functions are an aspect of JavaScript that run the contained lines of code, and can be reused in any other part of the file. Paramaters can optionally be passed to functions to retrieve or manipulate their data.
+
+Additional topics include conditionals and array methods. Conditionals are a way to control the flow of logic, and include `if`, `else`, and `switch`. `if` checks if a condition is true or not (a boolean value), while an `else` runs only if the previous `if` condition failed. `switch` is unique in that it breaks one value into several `case` statements that will only run if the  given value matches exactly with that of the `case`.  Array methods are ways to manipulate the contents of array: `push` inserts a new element into the end of an array, while `pop` removes the last element. `unshift` and `shift` work similarly, but involve the first element instead.
 
 ### Core Webpages (Architect)
 
