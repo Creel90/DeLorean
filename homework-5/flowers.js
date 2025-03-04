@@ -11,7 +11,7 @@ flowersList.innerHTML = availableFlowers.map(flower =>
 ).join("");
 
 const updateCart = () => {
-    cartList.innerHTML = cart.map(item => `<li>${item}</li>`).join(""); // Ensures correct display
+    cartList.innerHTML = cart.map(item => `<li>${item}</li>`).join(""); 
     noFlowersMessage.style.display = cart.length ? "none" : "block";
 };
 
