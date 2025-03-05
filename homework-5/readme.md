@@ -8,13 +8,7 @@ For our project, we chose to focus on developing interactive web applications fo
 
 [Homework-5](https://github.com/Creel90/DeLorean/tree/main/homework-5)
 
-[Online Bookstore](https://github.com/Creel90/DeLorean/homework-5/onlinebookstore.html)
-
-[Flower Shop](https://github.com/Creel90/DeLorean/homework-5/Flowershop.html)
-
 [Restaurant Menu](https://creel90.github.io/DeLorean/homework-5/Restaurantmenu.html) (USE THIS FOR LIVE LINK)
-
-[Animal Shelter](https://github.com/Creel90/DeLorean/homework-5/animalShelter.html)
 
 ### Key Takeaways (Analyst)
 
