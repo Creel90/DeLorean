@@ -2,25 +2,25 @@
 
 ### Project Summary (President)
 
-Brief description of your what your project is about and why you chose that topic.
+For our project, we chose to focus on developing interactive web applications for an **Online Bookstore, a Flower Shop, an Animal Shelter, and a Restaurant Menu**. These topics represent a variety of e-commerce and service-based industries, allowing us to explore key concepts such as event handling and user interactions. By integrating event listeners, functions, and array methods, we have created a set of interactive web pages that simulate real-world applications. This project has helped us enhance our web development skills, collaborate effectively as a team, and apply programming concepts in a meaningful way.
 
 ### Live Link
 
 [Homework-5](https://github.com/Creel90/DeLorean/tree/main/homework-5)
 
-[Online Bookstore](http://127.0.0.1:5500/homework-5/Onlinebookstore.html)
+[Online Bookstore](https://github.com/Creel90/DeLorean/blob/main/homework-5/onlinebookstore.html)
 
-[Flower Shop](http://127.0.0.1:5500/homework-5/Flowershop.html)
+[Flower Shop](https://github.com/Creel90/DeLorean/blob/main/homework-5/Flowershop.html)
 
-[Restaurant Menu](http://127.0.0.1:5500/homework-5/Restaurantmenu.html)
+[Restaurant Menu](https://github.com/Creel90/DeLorean/blob/main/homework-5/Restaurantmenu.html)
 
-[Animal Shelter](http://127.0.0.1:5500/homework-5/animalShelter.html)
+[Animal Shelter](https://github.com/Creel90/DeLorean/blob/main/homework-5/animalShelter.html)
 
 ### Key Takeaways (Analyst)
 
 The most important new topics covered in this week's assignment are event listeners and functions. Event listeners are triggered by a user on the webpage when interacting with elements, such as clicking a button (`onClick`) or mousing over an input field or text (`onFocus`). Event listeners are often used when creating logic to change something on the webpage after the user triggers them. Functions are an aspect of JavaScript that runs the contained lines of code, and can be reused in any other part of the file. Parameters can optionally be passed to functions to retrieve or manipulate their data.
 
-Additional topics include conditionals and array methods. Conditionals are a way to control the flow of logic, and include `if`, `else`, and `switch`. `if` checks if a condition is true or not (a boolean value), while an `else` runs only if the previous `if` condition failed. `switch` is unique in that it breaks one value into several `case` statements that will only run if the  given value matches exactly with that of the `case`.  Array methods are ways to manipulate the contents of array: `push` inserts a new element into the end of an array, while `pop` removes the last element. `unshift` and `shift` work similarly, but involve the first element instead.
+Additional topics include conditionals and array methods. Conditionals are a way to control the flow of logic, and include `if`, `else`, and `switch`. `if` checks if a condition is true or not (a boolean value), while an `else` runs only if the previous `if` condition failed. `switch` is unique in that it breaks one value into several `case` statements that will only run if the given value matches exactly with that of the `case`. Array methods are ways to manipulate the contents of array: `push` inserts a new element into the end of an array, while `pop` removes the last element. `unshift` and `shift` work similarly, but involve the first element instead.
 
 ### Core Webpages (Architect)
 
@@ -35,16 +35,17 @@ Additional topics include conditionals and array methods. Conditionals are a way
 ### Design Choices (Designer)
 
 ## Designer
+
 ### Yonni Baruch
 
 For our style sheet, we took reference from similar basic websites some of us have used in different websites such as our simple nav. We also wanted to add some more interactivity by making the buttons on the nav move and glow blue. This makes the website more fun and a little more enjoyable to look at.
 
-
 ### Members & Responsibilities (Scrum Master)
-Cammie Reel- President/Architect- "Submit assignments, write Project Summary section"/"Write Core Webpages section"
 
-Olusola Abolade- Scrum Master- "Write Members & Responsibilities section"
+Cammie Reel- President/Architect- "Submit assignments, write Project Summary section"/"Write Core Webpages section" - Online Bookstore
 
-Zachary Stepp- Analyst- "Write Key Takeaways section"
+Olusola Abolade- Scrum Master- "Write Members & Responsibilities section" - Flower Shop
 
-Yonni Baruch- Designer- "Write Design Choices section"
+Zachary Stepp- Analyst- "Write Key Takeaways section" - Restaurant Menu
+
+Yonni Baruch- Designer- "Write Design Choices section" - Animal Shelter
