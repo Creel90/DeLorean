@@ -34,7 +34,7 @@ Additional topics include conditionals and array methods. Conditionals are a way
 
 ### Design Choices (Designer)
 
-List any websites that you might reference to influence your styling choices. List any colors used and what they were used for.
+For our style sheet we took refrence from similar basic websites some of us have used in diffrent websites such as our simple nav. We also wanted to add some more interactivity by making the buttons on the nav move and glow blue. This makes the website more fun and a little more enjoyable to look at.
 
 ### Members & Responsibilities (Scrum Master)
 Cammie Reel- President/Architect- "Submit assignments, write Project Summary section"/"Write Core Webpages section"
