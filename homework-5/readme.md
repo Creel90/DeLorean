@@ -12,6 +12,10 @@ Brief description of your what your project is about and why you chose that topi
 
 [Flower Shop](https://github.com/Creel90/DeLorean/blob/main/homework-5/Flowershop.html)
 
+[Restaurant Menu]()
+
+[Animal Shelter]()
+
 ### Key Takeaways (Analyst)
 
 The most important new topics covered in this week's assignment are event listeners and functions. Event listeners are triggered by a user on the webpage when interacting with elements, such as clicking a button (`onClick`) or mousing over an input field or text (`onFocus`). Event listeners are often used when creating logic to change something on the webpage after the user triggers them. Functions are an aspect of JavaScript that runs the contained lines of code, and can be reused in any other part of the file. Parameters can optionally be passed to functions to retrieve or manipulate their data.
@@ -24,7 +28,7 @@ Additional topics include conditionals and array methods. Conditionals are a way
 
 - Flower Shop - Displays a list of flowers for users to add to their carts as well as a way to remove the last item they added to the cart. If no books are in the cart it displays the message "No flowers in cart".
 
-- Restaurant Menu -
+- Restaurant Menu - Users can choose from a list of menu items and add them to their carts. They also have the option to remove items from their carts. While cart is empty it will show a message in the cart saying "No items in cart".
 
 - Animal Shelter -
 

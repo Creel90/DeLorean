@@ -27,7 +27,7 @@ function addItem(e) {
 }
 
 function removeItem() {
-    cart.shift();
+    cart.pop();
     updateCart();
 }
 
