@@ -12,9 +12,9 @@ Brief description of your what your project is about and why you chose that topi
 
 [Flower Shop](https://github.com/Creel90/DeLorean/blob/main/homework-5/Flowershop.html)
 
-[Restaurant Menu]()
+[Restaurant Menu](https://github.com/Creel90/DeLorean/blob/main/homework-5/Restaurantmenu.html)
 
-[Animal Shelter]()
+[Animal Shelter](https://github.com/Creel90/DeLorean/blob/main/animalShelter.html)
 
 ### Key Takeaways (Analyst)
 
@@ -30,7 +30,7 @@ Additional topics include conditionals and array methods. Conditionals are a way
 
 - Restaurant Menu - Users can choose from a list of menu items and add them to their carts. They also have the option to remove items from their carts. While cart is empty it will show a message in the cart saying "No items in cart".
 
-- Animal Shelter -
+- Animal Shelter - 
 
 ### Design Choices (Designer)
 
