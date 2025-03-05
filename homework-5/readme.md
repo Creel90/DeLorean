@@ -12,7 +12,7 @@ Brief description of your what your project is about and why you chose that topi
 
 [Flower Shop](https://github.com/Creel90/DeLorean/blob/main/homework-5/Flowershop.html)
 
-[Restaurant Menu](https://github.com/Creel90/DeLorean/blob/main/homework-5/Restaurantmenu.html)
+[Restaurant Menu](http://127.0.0.1:5500/homework-5/Restaurantmenu.html)
 
 [Animal Shelter](https://github.com/Creel90/DeLorean/blob/main/animalShelter.html)
 
