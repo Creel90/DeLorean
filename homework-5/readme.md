@@ -8,13 +8,13 @@ Brief description of your what your project is about and why you chose that topi
 
 [Homework-5](https://github.com/Creel90/DeLorean/tree/main/homework-5)
 
-[Online Bookstore](https://github.com/Creel90/DeLorean/blob/main/homework-5/onlinebookstore.html)
+[Online Bookstore](http://127.0.0.1:5500/homework-5/Onlinebookstore.html)
 
-[Flower Shop](https://github.com/Creel90/DeLorean/blob/main/homework-5/Flowershop.html)
+[Flower Shop](http://127.0.0.1:5500/homework-5/Flowershop.html)
 
 [Restaurant Menu](http://127.0.0.1:5500/homework-5/Restaurantmenu.html)
 
-[Animal Shelter](https://github.com/Creel90/DeLorean/blob/main/animalShelter.html)
+[Animal Shelter](http://127.0.0.1:5500/homework-5/animalShelter.html)
 
 ### Key Takeaways (Analyst)
 
@@ -30,7 +30,7 @@ Additional topics include conditionals and array methods. Conditionals are a way
 
 - Restaurant Menu - Users can choose from a list of menu items and add them to their carts. They also have the option to remove items from their carts. While cart is empty it will show a message in the cart saying "No items in cart".
 
-- Animal Shelter - 
+- Animal Shelter - Animal Shelters webpage shows a list of animals users can adopt. By clicking the + sign they can add them to their carts and the - sign to remove the last one they put into the cart or until cart empty. If cart is empty message will display "No pets in cart".
 
 ### Design Choices (Designer)
 
