@@ -6,7 +6,7 @@ Brief description of your what your project is about and why you chose that topi
 
 ### Live Link
 
-[Home Page](https://github.com/Creel90/DeLorean/tree/main/Final-Document)
+[Home Page](https://creel90.github.io/DeLorean/Final-Documentation/home.html)
 
 ### Key Takeaways (Analyst)
 
