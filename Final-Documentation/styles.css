@@ -1,1 +1,37 @@
 
+
+h1 {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+
+nav {
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+  
+nav a {
+    text-decoration: none;
+    color: yellow;
+}
+
+
+
+:root {
+    --background-color: #000;          
+    --text-color: #dad7d5;                
+    --accent-color: #ffd700;     
+    --card-background: rgba(255, 255, 255, 0.1); 
+  }
+  
+
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    margin: 2;
+  }
