@@ -8,7 +8,7 @@ Brief description of your what your project is about and why you chose that topi
 
 [Home Page](https://creel90.github.io/DeLorean/Final-Documentation/home.html)
 
-[FamousStars] (https://creel90.github.io/DeLorean/Final-Documentation/Stars.html)
+[FamousStars](https://creel90.github.io/DeLorean/Final-Documentation/Final-project-2/Stars.html)
 
 
 ### Key Takeaways (Analyst)
