@@ -1,0 +1,71 @@
+
+h1 {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+
+nav {
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+  
+nav a {
+    text-decoration: none;
+    color: yellow;
+}
+
+
+
+:root {
+    --background-color: #000;          
+    --text-color: #dad7d5;                
+    --accent-color: #ffd700;     
+    --card-background: rgba(255, 255, 255, 0.1); 
+  }
+  
+
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    margin: 2;
+  }
+  
+  .Famous-Stars h1 {
+    text-align: center;
+    color: var(--accent-color);
+    margin-bottom: 20px;
+  }
+  
+.star-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.star-card img {
+    width: 150px; 
+    height: auto; 
+    border-radius: 10px; 
+    object-fit: cover; 
+}
+
+.star-card {
+    background-color: var(--card-background);
+    border: 1px solid var(--accent-color);
+    padding: 15px;
+    text-align: left;
+    transition: transform 0.3s ease;
+  }
+
+.star-card:hover {
+  transform: scale(1.0); 
+}
+@media (max-width: 500px) {}
+    .star-grid {
+      grid-template-columns: 1fr; /* Single column on small screens */
+    }
