@@ -1,19 +1,1 @@
-h1 {
-    text-align: center; 
-    margin-top: 20px; 
-}
-
-
-nav {
-    height: 50px;
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-  
-nav a {
-    text-decoration: none;
-    color: yellow;
-}
 
