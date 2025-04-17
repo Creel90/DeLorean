@@ -10,7 +10,7 @@ Brief description of your what your project is about and why you chose that topi
 
 [Famous Stars](https://creel90.github.io/DeLorean/Final-Documentation//Final-project-2%20/Stars.html)
 
-[stargazing](ttps://creel90.github.io/DeLorean/Final-Documentation//stargazing.html)
+[stargazing](https://creel90.github.io/DeLorean/Final-Documentation//stargazing.html)
 
 
 ### Key Takeaways (Analyst)
