@@ -2,7 +2,8 @@
 
 ### Project Summary (President)
 
-Brief description of your what your project is about and why you chose that topic. Describe how topic relates to category.
+For this project we created a website called Star Dive that focuses on facts about stars and tips. We chose this topic because astronomy inspires curiosity and offers a stunning visual experience. Stars are an excellent subject for this project because they combine science with interactive design. Our goal is to create something that educates, engages visually, and is easy for newcomers to astronomy to understand.
+
 
 ### Live Link
 
