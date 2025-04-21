@@ -34,7 +34,7 @@ var Moon = {
 function showMoon() {
   const today = new Date();
   const year = today.getFullYear();
-  const month = today.getMonth() + 1; // JS months are 0-based
+  const month = today.getMonth() + 1;
   const day = today.getDate();
 
   const phase = Moon.phase(year, month, day);

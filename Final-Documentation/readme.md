@@ -30,3 +30,10 @@ Describe your local storage data structure with rationale.
 ### Members & Responsibilities (Scrum Master)
 
 List all members, their roles, and their planned contributions to the project
+
+### Sources
+
+Moon phase emojis found at https://emojis.wiki/moon-phases/
+Moon phase code from https://gist.github.com/endel/dfe6bb2fbe679781948c
+Tips found at https://www.skyatnightmagazine.com/advice/skills/stargazing-top-tips
+Quotes found at https://www.scarymommy.com/star-quotes & https://www.yourtango.com/zodiac/astrology-quotes
