@@ -38,12 +38,19 @@ Throughout various points in this project, other ideas throughout the semester a
 
 ### Core Webpages (Architect)
 1: Home Page - Home page for the website with some small info and an inspirational quote that changes as well as a cool-looking background
+
 2: What are Stars? - Definition of what stars are, how they are made, and what they can be made of with images and graphics. 
+
 3: Type of Star - Will display info on each spectral class of main sequence stars with colored buttons. When clicking on any button, an API will load relevant characteristics of that specific star in a text area beside the buttons.
+
 4: Life cycle of a star—This will be an interactive timeline that views stars' lives from birth to death. It will discuss different ways of dying and have different timeline areas with branches.
+
 5: Famous Stars - This page will explain diffrent types of stars, including how they vary by color, size, and temperature. It will include visual examples and charts.
+
 6: Constellations - Telling stories behind constellations with a possible chart or gallery to select from to learn about.
+
 7: The Milky Way & Beyond - it will be showing stunning images from the Hubble and James Webb telescopes with facts about our galaxy and what lies beyond.
+
 8: Stargazing Tips - Will give suggestions to help someone have a successful stargazing night as well as an interactive feature of the moon phase of that day.
 
 ### Design Choices & Local Storage Design (Designer)
