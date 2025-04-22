@@ -7,11 +7,11 @@ For this project we created a website called Star Dive that focuses on facts abo
 
 ### Live Link
 
-[Home Page](https://creel90.github.io/DeLorean/Final-Documentation/home.html)
+[Home Page](https://creel90.github.io/DeLorean/Final-Documentation/home.html) 
+ 
+[Famous Stars](https://creel90.github.io/DeLorean/Final-Documentation/Final-project-2/Stars.html)  
 
-[Famous Stars](https://creel90.github.io/DeLorean/Final-Documentation/Final-project-2/Stars.html) 
-
-[Stargazing](https://creel90.github.io/DeLorean/Final-Documentation/stargazing.html)
+[Stargazing](https://creel90.github.io/DeLorean/Final-Documentation/stargazing.html)  
 
 [Milky Way](https://creel90.github.io/DeLorean/Final-Documentation/Final-project-2/milkyway.html)
 
