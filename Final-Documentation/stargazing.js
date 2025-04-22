@@ -1,6 +1,6 @@
-var Moon = {
+const Moon = {
   phase: function (year, month, day) {
-    var c = e = jd = b = 0;
+    let c = e = jd = b = 0;
 
     if (month < 3) {
       year--;
