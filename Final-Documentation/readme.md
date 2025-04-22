@@ -13,6 +13,8 @@ For this project we created a website called Star Dive that focuses on facts abo
 
 [Stargazing](https://creel90.github.io/DeLorean/Final-Documentation/stargazing.html)
 
+[Milky Way](https://creel90.github.io/DeLorean/Final-project-2/milkyway.html)
+
 
 ### Key Takeaways (Analyst)
 
