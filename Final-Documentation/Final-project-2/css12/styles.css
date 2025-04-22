@@ -1,0 +1,90 @@
+h1 {
+    text-align: center; 
+    margin-top: 20px; 
+}
+nav {
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+  
+nav a {
+    text-decoration: none;
+    color: yellow;
+}
+
+:root {
+    --background-color: #000;          
+    --text-color: #dad7d5;                
+    --accent-color: #ffd700;     
+    --card-background: rgba(255, 255, 255, 0.1); 
+  }
+  
+
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    background-image: url(''); 
+    background-size: cover;      
+    background-repeat: no-repeat;
+    background-position: center;  
+  }
+
+.milky-way {
+    padding: 40px 20px;}
+
+
+
+.milky-row {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.milky-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+.milky-image {
+    max-width: 300px;
+    text-align: center;
+  }
+
+.milky-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+  }
+
+.milky-image img:hover {
+    transform: scale(1.05);
+  }
+
+.caption {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: var(--accent-color);
+  }
+
+.milky-text {
+    flex: 1;
+    background-color: var(--card-background);
+    padding: 20px;
+    border: 1px solid var(--accent-color);
+    border-radius: 12px;
+  }
+
+  @media (max-width: 768px) {
+
+.milky-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
