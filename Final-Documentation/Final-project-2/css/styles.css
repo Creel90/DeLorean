@@ -31,8 +31,10 @@ nav a {
   body {
     background-color: var(--background-color);
     color: var(--text-color);
-    font-family: Arial, sans-serif;
-    margin: 2;
+    background-image: url(''); 
+    background-size: cover;      
+    background-repeat: no-repeat;
+    background-position: center;  
   }
   
   .Famous-Stars h1 {
@@ -67,5 +69,5 @@ nav a {
 }
 @media (max-width: 500px) {}
     .star-grid {
-      grid-template-columns: 1fr; /* Single column on small screens */
+      grid-template-columns: 1fr;
     }
