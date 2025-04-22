@@ -16,6 +16,7 @@ For this project we created a website called Star Dive that focuses on facts abo
 [Milky Way](https://creel90.github.io/DeLorean/Final-Documentation/Final-project-2/milkyway.html)
 
 
+
 ### Key Takeaways (Analyst)
 
 Accessing, reading, and writing to local storage is very useful for retaining information the user enters between sessions. Local storage can be accessed through the `localStorage` keyword, and a few important functions can be called on it:
