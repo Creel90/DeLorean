@@ -66,7 +66,7 @@ Awwwards & CSS-Tricks – Responsive design, hover effects, and CSS variable usa
 ## Colors Used:
 Defined via :root (presumably in a global CSS file), used for theme consistency
 
-## variable Hex Used For
+## variable Hex Used
 
 --background-color	#000000 -->	Page background (space aesthetic)
 
@@ -79,6 +79,8 @@ Defined via :root (presumably in a global CSS file), used for theme consistency
 ## Rationale
 
 favorites[] is an array of image/text blocks a user can mark.
+
+Each item includes useful metadata (id, title, image, description) for rendering previews.
 
 visitedSections[] helps track navigation flow or apply animations only once.
 
