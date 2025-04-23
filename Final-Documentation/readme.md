@@ -63,10 +63,10 @@ Space.com – Clean layout with side-by-side text and visuals.
 
 Awwwards & CSS-Tricks – Responsive design, hover effects, and CSS variable usage for theming.
 
-# Colors Used:
+## Colors Used:
 Defined via :root (presumably in a global CSS file), used for theme consistency
 
-# variable Hex Used For
+## variable Hex Used For
 
 --background-color	#000000 -->	Page background (space aesthetic)
 
@@ -76,13 +76,13 @@ Defined via :root (presumably in a global CSS file), used for theme consistency
 
 --card-background	rgba(255,255,255,0.1)	--> Info box backgrounds (semi-transparent)
 
-# Rationale
+## Rationale
 
 favorites[] is an array of image/text blocks a user can mark.
 
 visitedSections[] helps track navigation flow or apply animations only once.
 
-# LocalStorage Data Structure Description
+## LocalStorage Data Structure Description
 
 {
   "favorites": [
