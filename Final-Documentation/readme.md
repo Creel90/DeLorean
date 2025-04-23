@@ -55,13 +55,38 @@ Throughout various points in this project, other ideas throughout the semester a
 
 ### Design Choices & Local Storage Design (Designer)
 
-List any websites that you might reference to influence your styling choices. List any colors used and what they were used for. 
+The style choices are influenced by modern educational/scientific design trends
 
-Describe your local storage data structure with rationale.
+NASA.gov – Use of dark themes with vivid space imagery.
+
+Space.com – Clean layout with side-by-side text and visuals.
+
+Awwwards & CSS-Tricks – Responsive design, hover effects, and CSS variable usage for theming.
+
+Colors Used
+Defined via :root (presumably in a global CSS file), used for theme consistency
+
+ariable	Hex	Used For
+
+--background-color	#000000 -->	Page background (space aesthetic)
+--text-color	#dad7d5 --> General text color
+--accent-color	#ffd700	--> Headings, captions, borders
+--card-background	rgba(255,255,255,0.1)	--> Info box backgrounds (semi-transparent)
+
+Rationale:
+
+favorites[] is an array of image/text blocks a user can mark.
+visitedSections[] helps track navigation flow or apply animations only once.
 
 ### Members & Responsibilities (Scrum Master)
 
-List all members, their roles, and their planned contributions to the project
+Cammie Reel- President/Architect- "Submit assignments, write Project Summary section"/"Write Core Webpages section" (Home-Page/Stargazing-tips)
+
+Olusola Abolade- Scrum Master- "Write Members & Responsibilities section" (Famous-Stars/The Milky Way & Beyond/)
+
+Zachary Stepp- Analyst- "Write Key Takeaways section" (Life-Cycle/Types-of-Stars)
+
+Yonni Baruch- Designer- "Write Design Choices section"  (What-are-Stars/Constelltions)
 
 ### Sources
 
