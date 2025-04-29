@@ -1,41 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Types of Stars</title>
     <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
+  </head>
+  <body>
     <nav>
-        <a href="../home.html">Home Page</a>
-        <a href="Stars.html">Famous Stars</a>
-        <a href="../stargazing.html">Star Gazing Tips</a>
-        <a href="../Final-project-2/milkyway.html">The Milky Way</a>
+      <a href="../home.html">Home Page</a>
+      <a href="../Final-project-2/Stars.html">Famous Stars</a>
+      <a href="../stargazing.html">Star Gazing Tips</a>
+      <a href="../Final-project-2/milkyway.html">The Milky Way</a>
+      <a href="starLife.html">Life of a Star</a>
+      <a href="starType.html">Types of Stars</a>
     </nav>
     <h1>Spectral Classifications</h1>
-    <ul>
+    <section>
+      <ul>
         <li>
-            <button class="blue">O</button>
+          <button class="blue" data-startype="O">O</button>
         </li>
         <li>
-            <button class="light_blue">B</button>
+          <button class="light_blue" data-startype="B">B</button>
         </li>
         <li>
-            <button class="bluish_white">A</button>
+          <button class="bluish_white" data-startype="A">A</button>
         </li>
         <li>
-            <button class="white">F</button>
+          <button class="white" data-startype="F">F</button>
         </li>
         <li>
-            <button class="yellowish_white">G</button>
+          <button class="yellowish_white" data-startype="G">G</button>
         </li>
         <li>
-            <button class="light_orange">K</button>
+          <button class="light_orange" data-startype="K">K</button>
         </li>
         <li>
-            <button class="orangish_red">M</button>
+          <button class="orangish_red" data-startype="M">M</button>
         </li>
-    </ul>
-</body>
+      </ul>
+    </section>
+    <section id="info">
+    </section>
+  </body>
+  <script src="js/startype.js"></script>
 </html>
