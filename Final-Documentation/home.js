@@ -37,6 +37,7 @@ function handleLogin(e){
 
   let userInSystem = false;
   let correctPass = false;
+  let userPos = -1;
 
   for(let i = 0; i < users.length; i++){
     const user = users[i];
@@ -44,22 +45,23 @@ function handleLogin(e){
       userInSystem = true;
       if(user.password === password){
         correctPass = true;
+        userPos = i;
       }
     }
   }
 
   if(!userInSystem){
-    users.push({ username: username, password: password});
+    users.push({ username: username, password: password, stars: [{}]});
     localStorage.setItem("users", JSON.stringify(users));
     alert("New account successfully created.");
-    currentUser = {username: username};
+    currentUser = {username: username, password: password, stars: [{}]};
     localStorage.setItem("currentUser",JSON.stringify(currentUser));
   }
   else if (!correctPass){
     alert("Password not correct");
   }
   else{
-    currentUser = {username: username};
+    currentUser = users[userPos];
     localStorage.setItem("currentUser", JSON.stringify(currentUser));
 
     alert(`Login successful. Welcome, ${username}!`);
@@ -69,6 +71,14 @@ function handleLogin(e){
 }
 
 function handleLogout(){
+  const users = JSON.parse(localStorage.getItem("users") || "[]");
+  for(let i = 0; i < users.length; i++){
+    if(users[i].username = currentUser.username){
+      users[i].stars = currentUser.stars;
+    }
+  }
+  localStorage.setItem("users", JSON.stringify(users));
+
   localStorage.removeItem("currentUser");
   currentUser = {};
   alert("Logged out.");

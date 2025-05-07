@@ -16,25 +16,36 @@
       <a href="starType.html">Types of Stars</a>
     </nav>
     <h1>The Life of a Star</h1>
+    <label for="stars">Select a star:</label>
+
+    <select name="stars" id="stars">
+      <option value="default">New Star</option>
+    </select>
     <section class="timeline">
       <h2 id="title">Birth</h2>
       <p id="desc">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quae
-        soluta nesciunt doloribus dicta recusandae excepturi? Ad dolorem
-        reiciendis iusto?
+        Inside of nebulas, stars are born when enough matter coalesces into a
+        singular point. Your new star is being formed right now! What will you
+        name it, and how large will it be?
       </p>
-      <img
-        style="max-width:300px; max-height:300px"
-        id="image"
-        src="https://cdn.britannica.com/61/234061-050-6D985ED2/Carina-Nebula-Cosmic-Cliffs-NGC-3324-James-Webb-Space-Telescope-NIRCam.jpg"
-        alt=""
-      />
+      <div>
+        <img
+          style="max-width: 300px; max-height: 200px"
+          id="image"
+          src="https://cdn.britannica.com/61/234061-050-6D985ED2/Carina-Nebula-Cosmic-Cliffs-NGC-3324-James-Webb-Space-Telescope-NIRCam.jpg"
+          alt=""
+        />
+      </div>
+      <input type="text" id="nameInput" />
       <div class="opts">
-        <button>Option1</button>
-        <button>Option2</button>
-        <button>Option3</button>
+        <button id="opt1" data-pageNav="0">Small Star</button>
+        <button id="opt2" data-pageNav="1">Medium Star</button>
+        <button id="opt3" data-pageNav="2">Large Star</button>
       </div>
     </section>
+    <footer>
+      <p>&copy; 2025 | Built by Delorean Group</p>
+    </footer>
   </body>
   <script src="js/starlife.js"></script>
 </html>
