@@ -6,13 +6,23 @@ if (currentUser.stars) {
   starData = currentUser.stars;
 }
 
-if (starData[0].name) {
-  for (let i = 0; i < starData.length; i++) {
-    dropdownRef.innerHTML += `<option value="${i}">${starData[i].name}</option>`;
+let currentStar = {
+  name: "New Star",
+  type: "none",
+  currPage: -1,
+  index: starData[0].name ? starData.length : 0,
+};
+
+function updateDropdown() {
+    dropdownRef.innerHTML = `<option value="default">New Star</option>`;
+  if (starData[0].name) {
+    for (let i = 0; i < starData.length; i++) {
+      dropdownRef.innerHTML += `<option value="${i}">${starData[i].name}</option>`;
+    }
+    dropdownRef.value = currentStar.index;
   }
 }
-
-let currentStar = {name: "New Star", type: "none", currPage: -1, index: starData[0].name? starData.length : 0};
+updateDropdown();
 
 const pages = [
   {
@@ -154,9 +164,16 @@ const opt2Ref = document.querySelector("#opt2");
 const opt3Ref = document.querySelector("#opt3");
 const allOpts = [opt1Ref, opt2Ref, opt3Ref];
 
+const delButtonRef = document.querySelector("#delButton");
+
 dropdownRef.onchange = function () {
   if (dropdownRef.value == "default") {
-    currentStar = { name: "New Star", type: "none", currPage: -1, index: starData[0].name? starData.length : 0};
+    currentStar = {
+      name: "New Star",
+      type: "none",
+      currPage: -1,
+      index: starData[0].name ? starData.length : 0,
+    };
   } else {
     currentStar = starData[Number.parseInt(dropdownRef.value)];
   }
@@ -173,15 +190,15 @@ function updatePage(pageNum) {
       "https://cdn.britannica.com/61/234061-050-6D985ED2/Carina-Nebula-Cosmic-Cliffs-NGC-3324-James-Webb-Space-Telescope-NIRCam.jpg";
 
     opt1Ref.dataset.pagenav = "0";
-    opt1Ref.innerText = "Small Star"
+    opt1Ref.innerText = "Small Star";
     opt1Ref.style.display = "block";
 
     opt2Ref.dataset.pagenav = "1";
-    opt2Ref.innerText = "Medium Star"
+    opt2Ref.innerText = "Medium Star";
     opt2Ref.style.display = "block";
 
     opt3Ref.dataset.pagenav = "2";
-    opt3Ref.innerText = "Large Star"
+    opt3Ref.innerText = "Large Star";
     opt3Ref.style.display = "block";
 
     nameInputRef.style.display = "block";
@@ -206,6 +223,7 @@ function updatePage(pageNum) {
       }
     }
 
+    nameInputRef.value = "";
     nameInputRef.style.display = "none";
   }
 }
@@ -217,13 +235,12 @@ function navPages(e) {
   currentStar.type = newPage.title;
 
   //If we are on the starting (birth) page then we need to append currentStar to starData
-  if(currentStar.currPage == -1){
+  if (currentStar.currPage == -1) {
     currentStar.currPage = nav;
-    if(!starData[0].name){
-        starData[0] = currentStar;
-    }
-    else{
-        starData.push(currentStar);
+    if (!starData[0].name) {
+      starData[0] = currentStar;
+    } else {
+      starData.push(currentStar);
     }
   }
 
@@ -231,13 +248,16 @@ function navPages(e) {
 
   //save the current starData IF the user is logged in ONLY
   starData[currentStar.index] = currentStar;
-  if(!currentUser.username){
-    alert("You are not logged in and thus your star will NOT save! Make sure that you log in if you want to save your stars.");
+  if (!currentUser.username) {
+    alert(
+      "You are not logged in and thus your star will NOT save! Make sure that you log in if you want to save your stars."
+    );
   } else {
     currentUser.stars = starData;
     localStorage.setItem("currentUser", JSON.stringify(currentUser));
   }
 
+  updateDropdown();
   updatePage(nav);
 }
 
@@ -245,7 +265,43 @@ function updateName(e) {
   currentStar.name = e.target.value;
 }
 
+function deleteStar(index) {
+  starData.splice(index,1);
+  for (let i = index; i < starData.length; i++) {
+    starData[i].index = starData[i].index - 1;
+  }
+
+  if(starData.length < 1) starData = [{}];
+
+  if (currentUser.username) {
+    currentUser.stars = starData;
+    localStorage.setItem("currentUser", JSON.stringify(currentUser));
+  }
+
+  dropdownRef.value = "default";
+  currentStar = {
+    name: "New Star",
+    type: "none",
+    currPage: -1,
+    index: starData[0].name ? starData.length : 0,
+  };
+  console.log(starData);
+  updateDropdown();
+  updatePage(-1);
+}
+
 nameInputRef.onchange = updateName;
+
+delButtonRef.onclick = function () {
+  if (currentStar.currPage >= 0) {
+    if (confirm("Are you sure you want to delete this star?"))
+        console.log(starData);      
+        deleteStar(currentStar.index);
+  } else {
+    alert("No star to delete.");
+  }
+};
+
 for (let i = 0; i < allOpts.length; i++) {
   allOpts[i].onclick = navPages;
   allOpts[i].style.display = "block";

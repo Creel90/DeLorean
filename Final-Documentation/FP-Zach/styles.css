@@ -91,3 +91,7 @@ div.opts{
     grid-template-columns: auto auto auto;
     gap: 150px;
 }
+
+#delButton {
+    background-color:red
+}
